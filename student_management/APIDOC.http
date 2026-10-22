@@ -1,0 +1,41 @@
+#   API call for student information
+###
+POST http://127.0.0.1:8000/info/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Althaf Jalaludeen",
+    "Age": 22,
+    "place": "Kerala",
+    "email": "althaf@gmail.com",
+    "course": "Computer Science",
+    "phone": "1234567890"
+}
+
+###
+POST http://127.0.0.1:8000/marks/
+Content-Type: application/json
+
+{
+    "name": "Althaf Jalaludeen",
+    "python": 85,
+    "django": 90,
+    "database": 80
+}
+
+###
+GET http://127.0.0.1:8000/result/
+Accept: application/application/json
+
+
+###
+POST http://127.0.0.1:8000/result/
+Content-Type: application/json
+
+{
+    "name": "Althaf Jalaludeen",
+    "python": 85,
+    "django": 90,
+    "database": 80
+}
